@@ -50,7 +50,7 @@ superchain = "0.7"
 
 [`superchain`][sc] declares lazy evaluated statics that expose `ChainConfig`s, `RollupConfig`s,
 and `Chain` objects for all chains with static definitions in the superchain registry. The way this works
-is the the golang side of the superchain registry contains an "internal code generation" script that has
+is the golang side of the superchain registry contains an "internal code generation" script that has
 been modified to output configuration files to the [`crates/superchain`][s] directory in the
 `etc` folder that are read by the [`superchain`][sc] rust crate. These static config files
 contain an up-to-date list of all superchain configurations with their chain configs.
